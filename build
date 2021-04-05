@@ -7,6 +7,8 @@ lunch ssos_beryllium-userdebug
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
+export SELINUX_IGNORE_NEVERALLOWS=true
+export SKIP_ABI_CHECKS=true
 ccache -M 75G # It took only 6.4GB for mido
 ccache -o compression=true # Will save times and data to download and upload ccache, also negligible performance issue
 ccache -z # Clear old stats, so monitor script will provide real ccache statistics

@@ -13,4 +13,5 @@ git clone https://github.com/neel685/device_xiaomi_sdm845-common device/xiaomi/s
 git clone https://github.com/neel685/device_xiaomi_beryllium device/xiaomi/beryllium -b ssos --depth=1
 git clone https://github.com/TheStaticDesign/android_kernel_xiaomi_sdm845 kernel/xiaomi/sdm845 --depth=1
 git clone https://gitlab.com/the-muppets/proprietary_vendor_xiaomi vendor/xiaomi --depth=1
+git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi --depth=1 
 
